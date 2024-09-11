@@ -1,11 +1,8 @@
 
 # TheTicketScanner
 
-TheTicketScanner is a platform designed to aggregate event ticket prices from multiple vendors, allowing users to compare prices and find the best deals in one convenient location. We integrate data from Ticketmaster, Seatgeek, VividSeats, and more.
-
 ## Table of Contents
 
-- [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -13,22 +10,16 @@ TheTicketScanner is a platform designed to aggregate event ticket prices from mu
 - [Legal Notice](#legal-notice)
 - [License](#license)
 
-## Features
-
-- Aggregates ticket prices from multiple platforms.
-- Provides a search interface for users to find and compare event ticket prices.
-- Displays real-time ticket availability and prices.
-- User-friendly and responsive interface.
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/TheTicketScanner.git
+   git clone https://github.com/username/ticket-scanner.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd TheTicketScanner
+   cd ticket-scanner
    ```
 3. Install the necessary dependencies:
    ```bash
@@ -36,11 +27,11 @@ TheTicketScanner is a platform designed to aggregate event ticket prices from mu
    ```
 4. Set up environment variables:
    - Create a `.env` file in the root directory.
-   - Add your API keys for the ticket platforms (e.g., Ticketmaster, Seatgeek, VividSeats).
+   - Add your API keys for the ticket platforms (e.g., Ticketmaster).
 
 5. Run the application:
    ```bash
-   npm start
+   npm run dev
    ```
 
 ## Usage
