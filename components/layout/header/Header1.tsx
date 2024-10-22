@@ -11,17 +11,6 @@ export default function Header1({ scroll, handleLogin, handleMobileMenu, handleR
 		<>
 
 			<header className={`header sticky-bar ${scroll ? "stick" : ""}`}>
-				<div className="top-bar">
-					<div className="container-fluid">
-						<div className="text-header">
-							<div className="text-unlock text-sm-bold">Unlock the Magic of Travel with Travila - Your Gateway to
-								Extraordinary Experiences</div><Link className="link-secondary-2" href="#">Get This Now
-								<svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16" >
-									<path d="M7.99992 12.6666L12.6666 7.99992L7.99992 3.33325M12.6666 7.99992L3.33325 7.99992" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-								</svg></Link>
-						</div>
-					</div>
-				</div>
 				<div className="container-fluid background-body">
 					<div className="main-header">
 						<div className="header-left">
@@ -101,101 +90,6 @@ export default function Header1({ scroll, handleLogin, handleMobileMenu, handleR
 												</div>
 											</div>
 										</li>
-										<li className="mega-li-small has-children"><Link href="/about">Tours</Link>
-											<div className="mega-menu">
-												<div className="mega-menu-inner mega-menu-inner-small">
-													<div className="row">
-														<div className="col-lg-6">
-															<h6 className="text-lg-bold neutral-1000">Tours Listing</h6>
-															<ul className="sub-menu">
-																<li><Link href="/tour-grid-3">Tours List - Top Fillter</Link></li>
-																<li><Link href="/tour-grid">Sidebar Left Fillter</Link></li>
-																<li><Link href="/tour-grid-2">Sidebar Right Fillter</Link></li>
-																<li><Link href="/tour-list">Tours List - List 1</Link></li>
-																<li><Link href="/tour-list-2">Tours List - List 2</Link></li>
-															</ul>
-														</div>
-														<div className="col-lg-6">
-															<h6 className="text-lg-bold neutral-1000">Tour Details</h6>
-															<ul className="sub-menu">
-																<li><Link href="/tour-detail">Tour Single 01 - Gallery</Link></li>
-																<li><Link href="/tour-detail-2">Tour Single 02 - Slideshow</Link>
-																</li>
-																<li><Link href="/tour-detail-3">Tour Single 03 - Video</Link></li>
-																<li><Link href="/tour-detail-4">Tour Single 04 - Image</Link></li>
-															</ul>
-														</div>
-													</div>
-												</div>
-											</div>
-										</li>
-										<li className="mega-li-small has-children"><Link href="/service">Destinations</Link>
-											<div className="mega-menu">
-												<div className="mega-menu-inner mega-menu-inner-small mega-menu-inner-destinations">
-													<h6 className="text-lg-bold neutral-1000">Destinations</h6>
-													<ul className="sub-menu">
-														<li><Link href="/destination">Destinations list 01</Link></li>
-														<li><Link href="/destination-2">Destinations list 02</Link></li>
-														<li><Link href="/destination-3">Destinations list 03</Link></li>
-														<li><Link href="/destination-4">Destinations Details 01</Link></li>
-														<li><Link href="/destination-5">Destinations Details 02</Link></li>
-														<li><Link href="/destination-6">Destinations Details 03</Link></li>
-													</ul>
-												</div>
-											</div>
-										</li>
-										<li className="has-children"><Link href="#">Activities</Link>
-											<ul className="sub-menu">
-												<li> <Link href="/activities">Activities List 01</Link></li>
-												<li> <Link href="/activities-2">Activities List 02</Link></li>
-												<li> <Link href="/activities-3">Activities List 03</Link></li>
-												<li> <Link href="/activities-4">Activities List 04</Link></li>
-												<li> <Link href="/activities-5">Activities List 05</Link></li>
-												<li> <Link href="/activities-detail">Activities Single 01</Link></li>
-												<li> <Link href="/activities-detail-2">Activities Single 02</Link></li>
-												<li> <Link href="/activities-detail-3">Activities Single 03</Link></li>
-												<li> <Link href="/activities-detail-4">Activities Single 04</Link></li>
-											</ul>
-										</li>
-										<li className="has-children"><Link href="/blog">Hotel</Link>
-											<ul className="sub-menu">
-												<li><Link href="/hotel-grid">Hotel List 01</Link></li>
-												<li><Link href="/hotel-grid-2">Hotel List 02</Link></li>
-												<li><Link href="/hotel-grid-3">Hotel List 03</Link></li>
-												<li><Link href="/hotel-grid-4">Hotel List 04</Link></li>
-												<li><Link href="/hotel-grid-5">Hotel List 05</Link></li>
-												<li><Link href="/hotel-grid-6">Hotel List 06</Link></li>
-												<li><Link href="/hotel-detail">Hotel Details 01</Link></li>
-												<li><Link href="/hotel-detail-2">Hotel Details 02</Link></li>
-											</ul>
-										</li>
-										<li className="mega-li-small has-children"><Link href="#">Rental</Link>
-											<div className="mega-menu">
-												<div className="mega-menu-inner mega-menu-inner-small">
-													<div className="row">
-														<div className="col-lg-6">
-															<h6 className="text-lg-bold neutral-1000">Cars Rental</h6>
-															<ul className="sub-menu">
-																<li><Link href="/rental-car">Car Grid</Link></li>
-																<li><Link href="/rental-car-2">Car Grid 02</Link></li>
-																<li><Link href="/rental-car-3">Car Grid 03</Link></li>
-																<li><Link href="/rental-car-4">Car list</Link></li>
-																<li><Link href="/rental-detail">Car Details</Link></li>
-															</ul>
-														</div>
-														<div className="col-lg-6">
-															<h6 className="text-lg-bold neutral-1000">Property Rental</h6>
-															<ul className="sub-menu">
-																<li><Link href="/rental-property">Property Grid</Link></li>
-																<li><Link href="/rental-property-2">Property Grid 02</Link></li>
-																<li><Link href="/rental-property-3">Property List</Link></li>
-																<li><Link href="/property-detail">Property Details</Link></li>
-															</ul>
-														</div>
-													</div>
-												</div>
-											</div>
-										</li>
 										<li className="has-children"><Link href="/tickets">Tickets</Link>
 											<ul className="sub-menu">
 												<li><Link href="/tickets">Flight tickets</Link></li>
@@ -226,13 +120,12 @@ export default function Header1({ scroll, handleLogin, handleMobileMenu, handleR
 											</ul>
 										</li>
 										<li><Link href="/contact">Contact</Link></li>
+										<li><Link href="/about">About Us</Link></li>
 									</ul>
 								</nav>
 							</div>
 						</div>
 						<div className="header-right">
-							<LanguageDropdown />
-							<CurrencyDropdown />
 							<div className="d-none d-xxl-inline-block align-middle mr-15">
 								<ThemeSwitch />
 								<a className="btn btn-default btn-signin" onClick={handleLogin}>Signin</a>
