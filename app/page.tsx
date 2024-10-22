@@ -18,13 +18,9 @@ export default function Home() {
 
             <Layout headerStyle={1} footerStyle={1}>
                 <FilterSearch />
-                <YourJourney />
-                <PopularDestinations1 />
-                <TopRated1 />
+
                 <WhyChooseUs1 />
-                <Flights1 />
-                <Category />
-                <Payments1 />
+
                 <Testimonials1 />
                 <News1 />
                 <Subscriber1 />
