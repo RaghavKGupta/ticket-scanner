@@ -12,7 +12,7 @@ export default function Subscriber1() {
                                 <input className="form-control" type="text" placeholder="Your Email" />
                                 <input className="btn btn-submit" type="submit" defaultValue="Subscribe" />
                             </form>
-                            <p className="text-sm-medium neutral-500 mt-15">No ads. No trails. No commitments</p>
+                            <p className="text-sm-medium neutral-500 mt-15">No trails. No commitments</p>
                         </div>
                         <div className="subscriber-right" />
                     </div>

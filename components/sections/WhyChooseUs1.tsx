@@ -8,10 +8,10 @@ export default function WhyChooseUs1() {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6 mb-40"><span className="btn btn-tag">Why Choose Us</span>
-                            <h2 className="title-why neutral-1000">Dare to live the lift you’ve always wanted</h2>
-                            <p className="text-xl-medium neutral-500">Discover how you can offset your adventure's carbon
-                                emissions and support the sustainable initiatives practiced by our operators worldwide.</p>
-                            <div className="download-apps"> <Link href="#"><img src="/assets/imgs/template/googleplay.png" alt="Travila" /></Link><Link href="#"><img src="/assets/imgs/template/appstore.png" alt="Travila" /></Link></div>
+                            <h2 className="title-why neutral-1000">Finding event tickets made simple, transparent, and hassle-free</h2>
+                            <p className="text-xl-medium neutral-500">Say goodbye to jumping between different ticket platforms. We aggregate 
+                                prices from top ticket providers like Ticketmaster, Seatgeek, and VividSeats, so you can compare and choose the 
+                                best deal without the legwork.</p>
                         </div>
                         <div className="col-lg-6 mb-40">
                             <div className="row">
@@ -19,15 +19,15 @@ export default function WhyChooseUs1() {
                                     <div className="card-why-choose-us">
                                         <div className="card-image"> <img src="/assets/imgs/page/homepage1/destination.png" alt="Travila" /></div>
                                         <div className="card-info">
-                                            <h6 className="text-xl-bold">4500+ Destination</h6>
+                                            <h6 className="text-xl-bold">100+ Events</h6>
                                             <p className="text-sm-medium neutral-400">Our expert team handpicked all
-                                                destinations in this site.</p>
+                                                events in this site.</p>
                                         </div>
                                     </div>
                                     <div className="card-why-choose-us card-why-choose-us-type-2">
                                         <div className="card-info">
                                             <h6 className="text-xl-bold">Fast Booking</h6>
-                                            <p className="text-sm-medium neutral-400">Secure payment</p>
+                                            <p className="text-sm-medium neutral-400">Seamless and easy to use UI</p>
                                         </div>
                                     </div>
                                 </div>
@@ -35,16 +35,15 @@ export default function WhyChooseUs1() {
                                     <div className="card-why-choose-us background-body">
                                         <div className="card-image"> <img src="/assets/imgs/page/homepage1/support.png" alt="Travila" /></div>
                                         <div className="card-info">
-                                            <h6 className="text-xl-bold neutral-1000">Great 24/7 Support</h6>
+                                            <h6 className="text-xl-bold neutral-1000">Great Support</h6>
                                             <p className="text-sm-medium neutral-400">We are here to help, before, during, and
-                                                even after your trip.</p>
+                                                even after your event.</p>
                                         </div>
                                     </div>
                                     <div className="card-why-choose-us card-why-choose-us-type-3">
                                         <div className="card-info">
-                                            <h6 className="text-xl-bold">Best Price</h6>
-                                            <p className="text-sm-medium neutral-400">Price match within 48 hours of order
-                                                confirmation</p>
+                                            <h6 className="text-xl-bold">Real-Time Pricing</h6>
+                                            <p className="text-sm-medium">If prices drop or new seats become available, you'll be the first to know.</p>
                                         </div>
                                     </div>
                                 </div>

@@ -3,7 +3,7 @@ import Layout from "@/components/layout/Layout"
 import Category from "@/components/sections/Category"
 import FilterSearch from "@/components/sections/FilterSearch"
 import Flights1 from "@/components/sections/Flights1"
-import News1 from "@/components/sections/News1"
+import News8 from "@/components/sections/News8"
 import Payments1 from "@/components/sections/Payments1"
 import PopularDestinations1 from "@/components/sections/PopularDestinations1"
 import Subscriber1 from "@/components/sections/Subscriber1"
@@ -18,11 +18,11 @@ export default function Home() {
 
             <Layout headerStyle={1} footerStyle={1}>
                 <FilterSearch />
-
-                <WhyChooseUs1 />
+                <News8 />
+                
 
                 <Testimonials1 />
-                <News1 />
+                <WhyChooseUs1 />
                 <Subscriber1 />
             </Layout>
         </>

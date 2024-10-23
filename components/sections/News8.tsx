@@ -11,8 +11,8 @@ export default function News8() {
                 <div className="container">
                     <div className="row align-items-end">
                         <div className="col-md-9 mb-30 wow fadeInUp">
-                            <h2 className="neutral-1000">Get inspiration for your next trip</h2>
-                            <p className="text-xl-medium neutral-500">Favorite destinations based on customer reviews</p>
+                            <h2 className="neutral-1000">Trending Events</h2>
+                            <p className="text-xl-medium neutral-500">Favorite events based on recent searches</p>
                         </div>
                         <div className="col-md-3 mb-30 wow fadeInUp">
                             <div className="box-button-slider box-button-slider-team text-end">
@@ -38,7 +38,7 @@ export default function News8() {
                                     <SwiperSlide>
                                         <div className="card-news background-card hover-up">
                                             <div className="card-image">
-                                                <label className="label">Cultural</label><Link className="wish" href="#">
+                                                <label className="label">Sports</label><Link className="wish" href="#">
                                                     <svg width={20} height={18} viewBox="0 0 20 18" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M17.071 10.1422L11.4141 15.7991C10.6331 16.5801 9.36672 16.5801 8.58568 15.7991L2.92882 10.1422C0.9762 8.1896 0.9762 5.02378 2.92882 3.07116C4.88144 1.11853 8.04727 1.11853 9.99989 3.07116C11.9525 1.11853 15.1183 1.11853 17.071 3.07116C19.0236 5.02378 19.0236 8.1896 17.071 10.1422Z" stroke="" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
                                                     </svg></Link><img src="/assets/imgs/page/homepage1/news.png" alt="Travila" />
@@ -62,7 +62,7 @@ export default function News8() {
                                     <SwiperSlide>
                                         <div className="card-news background-card hover-up">
                                             <div className="card-image">
-                                                <label className="label">Travel</label><Link className="wish" href="#">
+                                                <label className="label">Concert</label><Link className="wish" href="#">
                                                     <svg width={20} height={18} viewBox="0 0 20 18" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M17.071 10.1422L11.4141 15.7991C10.6331 16.5801 9.36672 16.5801 8.58568 15.7991L2.92882 10.1422C0.9762 8.1896 0.9762 5.02378 2.92882 3.07116C4.88144 1.11853 8.04727 1.11853 9.99989 3.07116C11.9525 1.11853 15.1183 1.11853 17.071 3.07116C19.0236 5.02378 19.0236 8.1896 17.071 10.1422Z" stroke="" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
                                                     </svg></Link><img src="/assets/imgs/page/homepage1/news2.png" alt="Travila" />
@@ -86,7 +86,7 @@ export default function News8() {
                                     <SwiperSlide>
                                         <div className="card-news background-card hover-up">
                                             <div className="card-image">
-                                                <label className="label">Discovery</label><Link className="wish" href="#">
+                                                <label className="label">Concert</label><Link className="wish" href="#">
                                                     <svg width={20} height={18} viewBox="0 0 20 18" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M17.071 10.1422L11.4141 15.7991C10.6331 16.5801 9.36672 16.5801 8.58568 15.7991L2.92882 10.1422C0.9762 8.1896 0.9762 5.02378 2.92882 3.07116C4.88144 1.11853 8.04727 1.11853 9.99989 3.07116C11.9525 1.11853 15.1183 1.11853 17.071 3.07116C19.0236 5.02378 19.0236 8.1896 17.071 10.1422Z" stroke="" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
                                                     </svg></Link><img src="/assets/imgs/page/homepage1/news3.png" alt="Travila" />
@@ -110,7 +110,7 @@ export default function News8() {
                                     <SwiperSlide>
                                         <div className="card-news background-card hover-up">
                                             <div className="card-image">
-                                                <label className="label">Cultural</label><Link className="wish" href="#">
+                                                <label className="label">Festival</label><Link className="wish" href="#">
                                                     <svg width={20} height={18} viewBox="0 0 20 18" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M17.071 10.1422L11.4141 15.7991C10.6331 16.5801 9.36672 16.5801 8.58568 15.7991L2.92882 10.1422C0.9762 8.1896 0.9762 5.02378 2.92882 3.07116C4.88144 1.11853 8.04727 1.11853 9.99989 3.07116C11.9525 1.11853 15.1183 1.11853 17.071 3.07116C19.0236 5.02378 19.0236 8.1896 17.071 10.1422Z" stroke="" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
                                                     </svg></Link><img src="/assets/imgs/page/homepage1/news2.png" alt="Travila" />
@@ -134,7 +134,7 @@ export default function News8() {
                                     <SwiperSlide>
                                         <div className="card-news background-card hover-up">
                                             <div className="card-image">
-                                                <label className="label">Cultural</label><Link className="wish" href="#">
+                                                <label className="label">Theater</label><Link className="wish" href="#">
                                                     <svg width={20} height={18} viewBox="0 0 20 18" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M17.071 10.1422L11.4141 15.7991C10.6331 16.5801 9.36672 16.5801 8.58568 15.7991L2.92882 10.1422C0.9762 8.1896 0.9762 5.02378 2.92882 3.07116C4.88144 1.11853 8.04727 1.11853 9.99989 3.07116C11.9525 1.11853 15.1183 1.11853 17.071 3.07116C19.0236 5.02378 19.0236 8.1896 17.071 10.1422Z" stroke="" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
                                                     </svg></Link><img src="/assets/imgs/page/homepage1/news3.png" alt="Travila" />
