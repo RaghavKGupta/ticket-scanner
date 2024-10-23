@@ -1,6 +1,7 @@
 import 'react-perfect-scrollbar/dist/css/styles.css'
 import "/public/assets/css/style.css"
 import type { Metadata } from "next"
+import { Analytics } from "@vercel/analytics/react"
 import { Manrope, Merienda } from "next/font/google"
 
 const manrope_init = Manrope({
@@ -28,6 +29,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en" className={`${manrope_init.variable} ${merienda_init.variable}`}>
+            <Analytics/>
             <meta name = "Impact-Site-Verification" content = "6874b55e-ba7d-4671-a734-ec30d4fa2634" />
             <body>{children}</body>
         </html>
